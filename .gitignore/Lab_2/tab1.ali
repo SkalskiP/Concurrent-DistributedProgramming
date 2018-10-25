@@ -1,0 +1,67 @@
+V "GNAT Lib v2018"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV SPARK_05
+
+U tab1%b		tab1.adb		316cdc35 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+D ada.ads		20180524051735 76789da1 ada%s
+D a-except.ads		20180524051735 291912d5 ada.exceptions%s
+D a-flteio.ads		20180524051735 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20180524051734 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051735 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051736 491b781d ada.tags%s
+D a-textio.ads		20180524051736 881db35a ada.text_io%s
+D a-tiflio.ads		20180524051734 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20180524051736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051734 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051734 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051735 085b6ffb system%s
+D s-conca2.ads		20180524051735 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20180524051736 0b705ca5 system.concat_3%s
+D s-crtl.ads		20180524051734 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051736 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051736 078245e4 system.file_control_block%s
+D s-imgint.ads		20180524051734 02dbe0c2 system.img_int%s
+D s-imgrea.ads		20180524051734 c7a851e2 system.img_real%s
+D s-parame.ads		20180524051736 48ec542b system.parameters%s
+D s-secsta.ads		20180524051736 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051735 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051736 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051736 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051736 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051734 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051735 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051736 1b7d22d2 system.wch_con%s
+D tab1.adb		20181018152924 58fb28cf tab1%b
+X 1 ada.ads
+16K9*Ada 20e8 29|3r6 3r18 4r5 4r17
+X 3 a-flteio.ads
+20K13*Float_Text_IO[8|46] 29|3w22 4r21
+X 7 a-textio.ads
+49K13*Text_IO 471e16 29|3w10 4r9
+166U14*New_Line 29|13s4
+242U14*Put 29|11s4
+263U14*Put_Line 29|18s3
+X 8 a-tiflio.ads
+68U14*Put 29|12s4[3|20]
+X 29 tab1.adb
+6U11*Tab1 6b11 19l5 19t9
+7a3 T1(float) 10r12 10r22 12r9 15r12
+8f3 Sum{float} 16m5 16r12 18r24
+10i7 I{integer} 11r17 12r12
+15f7 E=15:12{float} 16r18
+

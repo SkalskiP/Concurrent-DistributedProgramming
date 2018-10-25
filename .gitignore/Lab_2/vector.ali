@@ -1,0 +1,79 @@
+V "GNAT Lib v2018"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV SPARK_05
+
+U vector%b		vector.adb		ba4da98d NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+D ada.ads		20180524051735 76789da1 ada%s
+D a-except.ads		20180524051735 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051734 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20180524051735 bb51c45a ada.numerics%s
+D a-nuflra.ads		20180524051734 4056ab7a ada.numerics.float_random%s
+D a-stream.ads		20180524051735 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051736 491b781d ada.tags%s
+D a-textio.ads		20180524051736 881db35a ada.text_io%s
+D a-unccon.ads		20180524051736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051734 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051734 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051735 085b6ffb system%s
+D s-conca4.ads		20180524051736 7e642b20 system.concat_4%s
+D s-crtl.ads		20180524051734 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051736 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051736 078245e4 system.file_control_block%s
+D s-imgint.ads		20180524051734 02dbe0c2 system.img_int%s
+D s-imgrea.ads		20180524051734 c7a851e2 system.img_real%s
+D s-parame.ads		20180524051736 48ec542b system.parameters%s
+D s-rannum.ads		20180524051735 99ade2f2 system.random_numbers%s
+D s-secsta.ads		20180524051736 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051735 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051736 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051736 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051736 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051734 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051735 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051736 1b7d22d2 system.wch_con%s
+D vector.adb		20181018162653 7206b1ad vector%b
+X 1 ada.ads
+16K9*Ada 20e8 29|1r6 1r19 2r5 2r18
+X 4 a-numeri.ads
+16K13*Numerics 32e17 29|1r23 2r22
+X 5 a-nuflra.ads
+41K22*Float_Random 74e30 29|1w32 2r31
+47R9*Generator<20|63R9> 29|10r10
+49F12*Uniformly_Distributed{float}
+51V13*Random{49F12}<20|71p13> 29|14s13
+53U14*Reset<20|100p14> 29|12s5
+X 8 a-textio.ads
+49K13*Text_IO 471e16 29|1w10 2r9
+263U14*Put_Line 29|21s7 29s3 31s3
+X 29 vector.adb
+4U11*Vector 4b11 33l5 33t11
+6A8 Vec(float)<integer> 7r8 9r35 18r36 25r32
+7a3 V1{6A8} 30m14 30r14 32m15 32r15
+9U13 fillVector 9b13 9=24 16l7 16t17 30s3
+9a24 V1{6A8} 13m15 13r15
+10r5 Gen{5|47R9} 12r11 14r20
+13f9 El=13:15{float} 14r7
+18U13 printVector 18b13 18=25 23l7 23t18 32s3
+18a25 V1{6A8} 20r14 21r43
+20i9 I{integer} 21r28 21r46
+25V12 isVectorSorted{boolean} 25>27
+25a27 V1{6A8} 26r31 26r42 26r56 26r63
+26i26 I{integer} 26r59 26r66
+

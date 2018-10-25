@@ -1,0 +1,76 @@
+V "GNAT Lib v2018"
+M P W=b
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_RECURSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV SPARK_05
+
+U lab1%b		lab1.adb		52d1e810 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+D ada.ads		20180524051735 76789da1 ada%s
+D a-except.ads		20180524051735 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051734 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051735 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051736 491b781d ada.tags%s
+D a-textio.ads		20180524051736 881db35a ada.text_io%s
+D a-unccon.ads		20180524051736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051734 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051734 e53d8b8e interfaces.c_streams%s
+D lab1.adb		20181011163108 dacc5b4a lab1%b
+D system.ads		20180524051735 085b6ffb system%s
+D s-conca2.ads		20180524051735 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20180524051734 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051736 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051736 078245e4 system.file_control_block%s
+D s-imgint.ads		20180524051734 02dbe0c2 system.img_int%s
+D s-imgrea.ads		20180524051734 c7a851e2 system.img_real%s
+D s-parame.ads		20180524051736 48ec542b system.parameters%s
+D s-secsta.ads		20180524051736 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051735 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051736 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051736 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051736 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051734 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051735 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051736 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 10|5r6 6r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 10|5w10 6r9
+166U14*New_Line 10|55s5
+242U14*Put 10|53s7
+263U14*Put_Line 10|51s5 60s3 61s3 62s3 65s3 66s3
+X 10 lab1.adb
+9U11*Lab1 9b11 67l5 67t9
+14V12 Max2{float} 14b12 14>17 14>21 19l7 19t11 62s24
+14f17 A1{float} 16r8 16r28
+14f21 A2{float} 16r13 17r17
+21V12 Mean{float} 21>17 21>21 65s24
+21f17 A1{float} 22r7
+21f21 A2{float} 22r12
+24V12 Factorial{integer} 24b12 24>22 27s22 29l7 29t16 66s29
+24i22 A1{integer} 26r8 27r17 27r32
+35V12 Add{float} 35>16 35>20 60s24
+35f16 A1{float} 36r6
+35f20 A2{float} 36r11
+38V12 Max{float} 38>16 38>20 61s23
+38f16 A1{float} 39r9 39r22
+38f20 A2{float} 39r14 39r30
+42V12 Fibo{natural} 42>17 43s50 43s62 53s12
+42i17 N{natural} 43r9 43r28 43r55 43r67
+47U13 Print_Fibo 47b13 47>24 56l7 56t17 63s3
+47i24 N{integer} 49r8 49r16 51r45 52r17
+52i9 I{integer} 53r17
+
